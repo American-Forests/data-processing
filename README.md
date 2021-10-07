@@ -13,7 +13,6 @@
 - Code reviews shouldn't take more than 3 days.
 - Use a code formatter (we use black)
 - Only one maintainer per jupyter notebook.
-
 - Data held in shared drive
 
 ## Project Flow
@@ -27,11 +26,8 @@
 1. Let's not commit any code to the master branch ever. Let's make sure we are working branches and making PRs, and getting code reviewed by a peer before pushing into master.
 
    - `git checkout -b <branchname>`
-
    - `git add <fileame>`
-
    - `git commit -m 'message'`
-
    - `git push`
 
 1. When finish a feature or a work sprint, make a pull request into the master branch and request a code review. Someone other than you reviews the code (if Rohit pushes, Mushtaaq reviews, if Mushtaaq pushes, Rohit reviews).
@@ -44,8 +40,7 @@ This is the American Forests template of how we structure our code.
 In the `scripts/` folder, we have our data cleaning code scripts; this is considered production code and we aim for all code in this folder to be stable and runnable by everyone.
 In the `notebooks/` folder, we have our jupyter notebooks.
 We recognize that is difficult for multiple people to edit the same Jupyter Notebook because of the challenges around merge conflicts.
-Instead, we advice that instead of multiple people collaborating on a single notebook, folks use the notebooks to explore data, generate graphs, etc, however if they plan on collaborating with anyone else on the project, they move any stable code to regular `*.py` files.
-Moreover, any code that is in the jupyter notebooks that is consider stable and is being relied on in projects is eventually moved into a regular python files.
+Instead, we advise that instead of multiple people collaborating on a single notebook, folks use the notebooks to explore data, generate graphs, etc., however if they plan on collaborating with anyone else on the project, they move any stable code to regular `*.py` files.
 
 If you are working in R cleaning scripts, or R markdown files, you can leave the code in those formats as they don't face the same merge conflicts that jupyter notebooks face. Those files should be kept in the `scripts/` folders.
 
