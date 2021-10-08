@@ -11,7 +11,7 @@
 - In the `docs/data_sources.md` file, we would like all data sources to be listed with a source and description. If possible, a data dictionaries would be appreciated as well!
 - Work in branches, not the main branch. Make pull requests and wait for a code review.
 - Code reviews shouldn't take more than 3 days.
-- Use a code formatter (we use [black](https://black.readthedocs.io/en/stable/index.html))
+- Use a code formatter (we use [black](https://black.readthedocs.io/en/stable/index.html) and it is configured to automatically run on pull request or push)
 - Only one maintainer per jupyter notebook.
 - Data held in shared drive
 
