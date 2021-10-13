@@ -30,7 +30,7 @@
    - `git commit -m 'message'`
    - `git push`
 
-1. When finish a feature or a work sprint, make a pull request into the master branch and request a code review. Someone other than you reviews the code (if Rohit pushes, Mushtaaq reviews, if Mushtaaq pushes, Rohit reviews).
+1. When finish a feature or a work sprint, make a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) into the master branch and request a code review. Someone other than you reviews the code (if Rohit pushes, Mushtaaq reviews, if Mushtaaq pushes, Rohit reviews).
 1. If the code looks good, push into `main` branch, otherwise offer feedback, and do another code review cycle
 1. Write code for storing data in s3 buckets.
 
